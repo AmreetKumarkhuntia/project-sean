@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis Result</title>
+</head>
+<body>
+    {% if prediction < 0.5 %}
+        <h1>The input review is negative.</h1>
+    {% else %}
+        <h1>The input review is positive.</h1>
+    {% endif %}
+</body>
+</html>
